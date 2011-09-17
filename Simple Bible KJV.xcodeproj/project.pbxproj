@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F2F4F314255D2E005508C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F214255D2E005508C7 /* UIKit.framework */; };
+		D8F2F4F514255D2E005508C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F414255D2E005508C7 /* Foundation.framework */; };
+		D8F2F4F714255D2E005508C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */; };
+		D8F2F4FD14255D2E005508C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F4FB14255D2E005508C7 /* InfoPlist.strings */; };
+		D8F2F50014255D2E005508C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2F4FF14255D2E005508C7 /* main.m */; };
+		D8F2F50314255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2F50214255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m */; };
+		D8F2F50614255D2E005508C7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F50414255D2E005508C7 /* MainWindow.xib */; };
+		D8F2F50914255D2E005508C7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2F50814255D2E005508C7 /* RootViewController.m */; };
+		D8F2F50C14255D2E005508C7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F50A14255D2E005508C7 /* RootViewController.xib */; };
+		D8F2F51314255D2E005508C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F214255D2E005508C7 /* UIKit.framework */; };
+		D8F2F51414255D2E005508C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F414255D2E005508C7 /* Foundation.framework */; };
+		D8F2F51514255D2E005508C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */; };
+		D8F2F51D14255D2E005508C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F51B14255D2E005508C7 /* InfoPlist.strings */; };
+		D8F2F52014255D2E005508C7 /* Simple_Bible_KJVTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F51F14255D2E005508C7 /* Simple_Bible_KJVTests.h */; };
+		D8F2F52214255D2E005508C7 /* Simple_Bible_KJVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2F52114255D2E005508C7 /* Simple_Bible_KJVTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F2F51614255D2E005508C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F2F4E514255D2D005508C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F2F4ED14255D2E005508C7;
+			remoteInfo = "Simple Bible KJV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8F2F4EE14255D2E005508C7 /* Simple Bible KJV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Bible KJV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F2F4F214255D2E005508C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8F2F4F414255D2E005508C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8F2F4FA14255D2E005508C7 /* Simple Bible KJV-Info.plist */ = {isa = PBXFileReference; path = "Simple Bible KJV-Info.plist"; sourceTree = "<group>"; };
+		D8F2F4FC14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8F2F4FE14255D2E005508C7 /* Simple Bible KJV-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Bible KJV-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2F4FF14255D2E005508C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */ = {isa = PBXFileReference; path = Simple_Bible_KJVAppDelegate.h; sourceTree = "<group>"; };
+		D8F2F50214255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Bible_KJVAppDelegate.m; sourceTree = "<group>"; };
+		D8F2F50514255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D8F2F50714255D2E005508C7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		D8F2F50814255D2E005508C7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D8F2F50B14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		D8F2F51214255D2E005508C7 /* Simple Bible KJVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Bible KJVTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F2F51A14255D2E005508C7 /* Simple Bible KJVTests-Info.plist */ = {isa = PBXFileReference; path = "Simple Bible KJVTests-Info.plist"; sourceTree = "<group>"; };
+		D8F2F51C14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8F2F51E14255D2E005508C7 /* Simple Bible KJVTests-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Bible KJVTests-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2F51F14255D2E005508C7 /* Simple_Bible_KJVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Bible_KJVTests.h; sourceTree = "<group>"; };
+		D8F2F52114255D2E005508C7 /* Simple_Bible_KJVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Bible_KJVTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F2F4EB14255D2E005508C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F4F314255D2E005508C7 /* UIKit.framework in Frameworks */,
+				D8F2F4F514255D2E005508C7 /* Foundation.framework in Frameworks */,
+				D8F2F4F714255D2E005508C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F2F50E14255D2E005508C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F51314255D2E005508C7 /* UIKit.framework in Frameworks */,
+				D8F2F51414255D2E005508C7 /* Foundation.framework in Frameworks */,
+				D8F2F51514255D2E005508C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F2F4E314255D2D005508C7 = {
+			isa = PBXGroup;
+			children = (
+				D8F2F4F814255D2E005508C7 /* Simple Bible KJV */,
+				D8F2F51814255D2E005508C7 /* Simple Bible KJVTests */,
+				D8F2F4F114255D2E005508C7 /* Frameworks */,
+				D8F2F4EF14255D2E005508C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F2F4EF14255D2E005508C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F4EE14255D2E005508C7 /* Simple Bible KJV.app */,
+				D8F2F51214255D2E005508C7 /* Simple Bible KJVTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F2F4F114255D2E005508C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F4F214255D2E005508C7 /* UIKit.framework */,
+				D8F2F4F414255D2E005508C7 /* Foundation.framework */,
+				D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F2F4F814255D2E005508C7 /* Simple Bible KJV */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */,
+				D8F2F50214255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m */,
+				D8F2F50414255D2E005508C7 /* MainWindow.xib */,
+				D8F2F50714255D2E005508C7 /* RootViewController.h */,
+				D8F2F50814255D2E005508C7 /* RootViewController.m */,
+				D8F2F50A14255D2E005508C7 /* RootViewController.xib */,
+				D8F2F4F914255D2E005508C7 /* Supporting Files */,
+			);
+			path = "Simple Bible KJV";
+			sourceTree = "<group>";
+		};
+		D8F2F4F914255D2E005508C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F4FA14255D2E005508C7 /* Simple Bible KJV-Info.plist */,
+				D8F2F4FB14255D2E005508C7 /* InfoPlist.strings */,
+				D8F2F4FE14255D2E005508C7 /* Simple Bible KJV-Prefix.pch */,
+				D8F2F4FF14255D2E005508C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F2F51814255D2E005508C7 /* Simple Bible KJVTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F51F14255D2E005508C7 /* Simple_Bible_KJVTests.h */,
+				D8F2F52114255D2E005508C7 /* Simple_Bible_KJVTests.m */,
+				D8F2F51914255D2E005508C7 /* Supporting Files */,
+			);
+			path = "Simple Bible KJVTests";
+			sourceTree = "<group>";
+		};
+		D8F2F51914255D2E005508C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2F51A14255D2E005508C7 /* Simple Bible KJVTests-Info.plist */,
+				D8F2F51B14255D2E005508C7 /* InfoPlist.strings */,
+				D8F2F51E14255D2E005508C7 /* Simple Bible KJVTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F2F4ED14255D2E005508C7 /* Simple Bible KJV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F2F52514255D2E005508C7 /* Build configuration list for PBXNativeTarget "Simple Bible KJV" */;
+			buildPhases = (
+				D8F2F4EA14255D2E005508C7 /* Sources */,
+				D8F2F4EB14255D2E005508C7 /* Frameworks */,
+				D8F2F4EC14255D2E005508C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Bible KJV";
+			productName = "Simple Bible KJV";
+			productReference = D8F2F4EE14255D2E005508C7 /* Simple Bible KJV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F2F51114255D2E005508C7 /* Simple Bible KJVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F2F52814255D2E005508C7 /* Build configuration list for PBXNativeTarget "Simple Bible KJVTests" */;
+			buildPhases = (
+				D8F2F50D14255D2E005508C7 /* Sources */,
+				D8F2F50E14255D2E005508C7 /* Frameworks */,
+				D8F2F50F14255D2E005508C7 /* Resources */,
+				D8F2F51014255D2E005508C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F2F51714255D2E005508C7 /* PBXTargetDependency */,
+			);
+			name = "Simple Bible KJVTests";
+			productName = "Simple Bible KJVTests";
+			productReference = D8F2F51214255D2E005508C7 /* Simple Bible KJVTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F2F4E514255D2D005508C7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8F2F4E814255D2D005508C7 /* Build configuration list for PBXProject "Simple Bible KJV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8F2F4E314255D2D005508C7;
+			productRefGroup = D8F2F4EF14255D2E005508C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F2F4ED14255D2E005508C7 /* Simple Bible KJV */,
+				D8F2F51114255D2E005508C7 /* Simple Bible KJVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F2F4EC14255D2E005508C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F4FD14255D2E005508C7 /* InfoPlist.strings in Resources */,
+				D8F2F50614255D2E005508C7 /* MainWindow.xib in Resources */,
+				D8F2F50C14255D2E005508C7 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F2F50F14255D2E005508C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F51D14255D2E005508C7 /* InfoPlist.strings in Resources */,
+				D8F2F52014255D2E005508C7 /* Simple_Bible_KJVTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8F2F51014255D2E005508C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F2F4EA14255D2E005508C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F50014255D2E005508C7 /* main.m in Sources */,
+				D8F2F50314255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m in Sources */,
+				D8F2F50914255D2E005508C7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F2F50D14255D2E005508C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2F52214255D2E005508C7 /* Simple_Bible_KJVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F2F51714255D2E005508C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F2F4ED14255D2E005508C7 /* Simple Bible KJV */;
+			targetProxy = D8F2F51614255D2E005508C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8F2F4FB14255D2E005508C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F2F4FC14255D2E005508C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8F2F50414255D2E005508C7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F2F50514255D2E005508C7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8F2F50A14255D2E005508C7 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F2F50B14255D2E005508C7 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		D8F2F51B14255D2E005508C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F2F51C14255D2E005508C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F2F52314255D2E005508C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8F2F52414255D2E005508C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8F2F52614255D2E005508C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Bible KJV/Simple Bible KJV-Prefix.pch";
+				INFOPLIST_FILE = "Simple Bible KJV/Simple Bible KJV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8F2F52714255D2E005508C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Bible KJV/Simple Bible KJV-Prefix.pch";
+				INFOPLIST_FILE = "Simple Bible KJV/Simple Bible KJV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8F2F52914255D2E005508C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Bible KJV.app/Simple Bible KJV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Bible KJVTests/Simple Bible KJVTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple Bible KJVTests/Simple Bible KJVTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D8F2F52A14255D2E005508C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Bible KJV.app/Simple Bible KJV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Bible KJVTests/Simple Bible KJVTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple Bible KJVTests/Simple Bible KJVTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F2F4E814255D2D005508C7 /* Build configuration list for PBXProject "Simple Bible KJV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F2F52314255D2E005508C7 /* Debug */,
+				D8F2F52414255D2E005508C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F2F52514255D2E005508C7 /* Build configuration list for PBXNativeTarget "Simple Bible KJV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F2F52614255D2E005508C7 /* Debug */,
+				D8F2F52714255D2E005508C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8F2F52814255D2E005508C7 /* Build configuration list for PBXNativeTarget "Simple Bible KJVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F2F52914255D2E005508C7 /* Debug */,
+				D8F2F52A14255D2E005508C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F2F4E514255D2D005508C7 /* Project object */;
+}

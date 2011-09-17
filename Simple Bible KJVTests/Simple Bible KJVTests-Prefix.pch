@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Simple Bible KJVTests' target in the 'Simple Bible KJVTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
