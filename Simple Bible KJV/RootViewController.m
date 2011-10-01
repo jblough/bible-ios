@@ -7,12 +7,32 @@
 //
 
 #import "RootViewController.h"
+#import "ChapterViewController.h"
+#import "SearchViewController.h"
+#import "Simple_Bible_KJVAppDelegate.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.title = @"Books of the Bible";
+    BibleLibrary *library = ((Simple_Bible_KJVAppDelegate *)[UIApplication sharedApplication].delegate).library;
+    [otBooks release];
+    otBooks = [library loadBooks:1];
+    //NSLog(@"Loaded %d Old Testament books", [otBooks count]);
+    [ntBooks release];
+    ntBooks = [library loadBooks:2];
+    //NSLog(@"Loaded %d New Testament books", [ntBooks count]);
+    
+	searchButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch 
+                                                                     target:self action:@selector(onSearch:)];
+    self.navigationItem.leftBarButtonItem = searchButtonItem;
+    
+	bookmarksButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks 
+                                                                        target:self action:@selector(onBookmarks:)];
+    self.navigationItem.rightBarButtonItem = bookmarksButtonItem;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -46,12 +66,16 @@
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return (section == 0) ? [otBooks count] : [ntBooks count];
+}
+
+- (NSString *)tableView:(UITableView *)inTableView titleForHeaderInSection:(NSInteger)section {
+    return (section == 0) ? @"Old Testament" : @"New Testament";
 }
 
 // Customize the appearance of table view cells.
@@ -65,6 +89,10 @@
     }
 
     // Configure the cell.
+    Book *book = (indexPath.section == 0) ? [otBooks objectAtIndex:indexPath.row] : [ntBooks objectAtIndex:indexPath.row];
+
+    cell.textLabel.text = book.name;
+    cell.imageView.image = [UIImage imageNamed:@"closed3"];
     return cell;
 }
 
@@ -111,6 +139,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    Book *book = (indexPath.section == 0) ? [otBooks objectAtIndex:indexPath.row] : [ntBooks objectAtIndex:indexPath.row];
+    NSLog(@"Selected book %@", book.name);
+    
     /*
     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
     // ...
@@ -118,6 +149,12 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
 	*/
+    
+    //[tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    ChapterViewController *nextViewController = [[ChapterViewController alloc] initWithBookId:book.bookId chapterNumber:1];
+    [self.navigationController pushViewController:nextViewController animated:YES];
+    [nextViewController release];
 }
 
 - (void)didReceiveMemoryWarning
@@ -138,7 +175,54 @@
 
 - (void)dealloc
 {
+    [otBooks release];
+    [ntBooks release];
+    
+    [searchButtonItem release];
+    [bookmarksButtonItem release];
+    
     [super dealloc];
+}
+
+- (void)onSearch:(id)sender {
+    UIViewController *nextViewController = [[SearchViewController alloc] initWithNibName:@"SearchViewController" bundle:nil];
+    [self.navigationController pushViewController:nextViewController animated:YES];
+    [nextViewController release];
+}
+
+- (void)onBookmarks:(id)sender {
+    NSLog(@"Opening bookmarks...");
+    BookmarksViewController *bookmarksViewController = 
+        [[BookmarksViewController alloc] initWithDelegate:self];
+    [self presentModalViewController:bookmarksViewController animated:YES];
+    [bookmarksViewController release];
+}
+
+- (void)loadBookmark:(int)bookmark {
+    // Dismiss the bookmark dialog
+    [self.modalViewController dismissModalViewControllerAnimated:YES];
+    
+    // Load bookmark
+    BibleLibrary *library = ((Simple_Bible_KJVAppDelegate *)[UIApplication sharedApplication].delegate).library;
+    Verse *bookmarkedVerse = [library loadVerse:bookmark];
+    
+    // Create view for rendering the bookmark
+    ChapterViewController *nextViewController = [[ChapterViewController alloc] initWithBookId:bookmarkedVerse.bookId 
+                                                chapterNumber:bookmarkedVerse.chapter
+                                                 verseNumber:bookmarkedVerse.number];
+    [self.navigationController pushViewController:nextViewController animated:YES];
+    [nextViewController release];
+    [bookmarkedVerse release];
+}
+
+- (void)cancelBookmarkLoad {
+    // Dismiss the bookmark dialog
+    [self.modalViewController dismissModalViewControllerAnimated:YES];
+}
+
+#pragma mark - SelectChapterDelegate functions
+- (void)selectChapter:(int)bookId {
+    NSLog(@"Select chapter for book %d", bookId);
 }
 
 @end

@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83FD818142598B10070DE8D /* TapDetectingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FD817142598B10070DE8D /* TapDetectingWindow.m */; };
+		D8CBA22E142B1EDA00AC20E9 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBA22C142B1EDA00AC20E9 /* SearchResultsViewController.m */; };
+		D8CBA22F142B1EDA00AC20E9 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CBA22D142B1EDA00AC20E9 /* SearchResultsViewController.xib */; };
+		D8CBA234142B274300AC20E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBA233142B274300AC20E9 /* MBProgressHUD.m */; };
+		D8CC89DC142C7A9A0094C516 /* SearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CC89DB142C7A9A0094C516 /* SearchResultsCell.xib */; };
+		D8D427171429D78E0078D572 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D427151429D78E0078D572 /* SearchViewController.m */; };
+		D8D427181429D78E0078D572 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D427161429D78E0078D572 /* SearchViewController.xib */; };
+		D8D4AFA714256D15009C4FCE /* BibleLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFA014256D15009C4FCE /* BibleLibrary.m */; };
+		D8D4AFA814256D15009C4FCE /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFA214256D15009C4FCE /* Book.m */; };
+		D8D4AFAA14256D15009C4FCE /* Verse.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFA614256D15009C4FCE /* Verse.m */; };
+		D8D4AFAC14256D49009C4FCE /* bible.db in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFAB14256D49009C4FCE /* bible.db */; };
+		D8D4AFB014257047009C4FCE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D4AFAF14257047009C4FCE /* libsqlite3.dylib */; };
+		D8D4AFBE14257473009C4FCE /* closed3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFB814257473009C4FCE /* closed3.png */; };
+		D8D4AFBF14257473009C4FCE /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFB914257473009C4FCE /* Left.png */; };
+		D8D4AFC014257473009C4FCE /* LeftPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFBA14257473009C4FCE /* LeftPressed.png */; };
+		D8D4AFC114257473009C4FCE /* listing3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFBB14257473009C4FCE /* listing3.png */; };
+		D8D4AFC214257473009C4FCE /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFBC14257473009C4FCE /* Right.png */; };
+		D8D4AFC314257473009C4FCE /* RightPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFBD14257473009C4FCE /* RightPressed.png */; };
+		D8D4AFC61425780C009C4FCE /* ChapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFC41425780B009C4FCE /* ChapterViewController.xib */; };
+		D8D4AFC914257821009C4FCE /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFC814257821009C4FCE /* ChapterViewController.m */; };
+		D8D4AFCC142578E7009C4FCE /* HoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFCB142578E7009C4FCE /* HoverView.m */; };
+		D8D4AFCE14257AA2009C4FCE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFCD14257AA2009C4FCE /* icon.png */; };
+		D8D4AFD014257B76009C4FCE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFCF14257B76009C4FCE /* icon.png */; };
+		D8D916C7142FC02B00431FA6 /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D916C5142FC02A00431FA6 /* BookmarksViewController.m */; };
+		D8D916C8142FC02B00431FA6 /* BookmarksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D916C6142FC02B00431FA6 /* BookmarksViewController.xib */; };
+		D8DBEA72143469DF0098553B /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEA71143469DF0098553B /* Bookmark.m */; };
+		D8EAB0D01433210D00CFDFDC /* ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EAB0CF1433210D00CFDFDC /* ribbon.png */; };
 		D8F2F4F314255D2E005508C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F214255D2E005508C7 /* UIKit.framework */; };
 		D8F2F4F514255D2E005508C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F414255D2E005508C7 /* Foundation.framework */; };
 		D8F2F4F714255D2E005508C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */; };
@@ -22,6 +49,8 @@
 		D8F2F51D14255D2E005508C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F51B14255D2E005508C7 /* InfoPlist.strings */; };
 		D8F2F52014255D2E005508C7 /* Simple_Bible_KJVTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D8F2F51F14255D2E005508C7 /* Simple_Bible_KJVTests.h */; };
 		D8F2F52214255D2E005508C7 /* Simple_Bible_KJVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2F52114255D2E005508C7 /* Simple_Bible_KJVTests.m */; };
+		D8F914851436D48200017D64 /* decrease_font.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F914831436D48200017D64 /* decrease_font.png */; };
+		D8F914861436D48200017D64 /* increase_font.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F914841436D48200017D64 /* increase_font.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +64,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D83FD816142598B10070DE8D /* TapDetectingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingWindow.h; sourceTree = "<group>"; };
+		D83FD817142598B10070DE8D /* TapDetectingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingWindow.m; sourceTree = "<group>"; };
+		D8CBA22B142B1EDA00AC20E9 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		D8CBA22C142B1EDA00AC20E9 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		D8CBA22D142B1EDA00AC20E9 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsViewController.xib; sourceTree = "<group>"; };
+		D8CBA232142B274300AC20E9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D8CBA233142B274300AC20E9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D8CC89DB142C7A9A0094C516 /* SearchResultsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsCell.xib; sourceTree = "<group>"; };
+		D8D427141429D78E0078D572 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		D8D427151429D78E0078D572 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		D8D427161429D78E0078D572 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		D8D4AF9F14256D15009C4FCE /* BibleLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BibleLibrary.h; sourceTree = "<group>"; };
+		D8D4AFA014256D15009C4FCE /* BibleLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BibleLibrary.m; sourceTree = "<group>"; };
+		D8D4AFA114256D15009C4FCE /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D8D4AFA214256D15009C4FCE /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		D8D4AFA514256D15009C4FCE /* Verse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Verse.h; sourceTree = "<group>"; };
+		D8D4AFA614256D15009C4FCE /* Verse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Verse.m; sourceTree = "<group>"; };
+		D8D4AFAB14256D49009C4FCE /* bible.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = bible.db; sourceTree = "<group>"; };
+		D8D4AFAD1425702E009C4FCE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D8D4AFAF14257047009C4FCE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D8D4AFB814257473009C4FCE /* closed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed3.png; sourceTree = "<group>"; };
+		D8D4AFB914257473009C4FCE /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Left.png; sourceTree = "<group>"; };
+		D8D4AFBA14257473009C4FCE /* LeftPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftPressed.png; sourceTree = "<group>"; };
+		D8D4AFBB14257473009C4FCE /* listing3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listing3.png; sourceTree = "<group>"; };
+		D8D4AFBC14257473009C4FCE /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right.png; sourceTree = "<group>"; };
+		D8D4AFBD14257473009C4FCE /* RightPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightPressed.png; sourceTree = "<group>"; };
+		D8D4AFC51425780C009C4FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ChapterViewController.xib; sourceTree = "<group>"; };
+		D8D4AFC714257821009C4FCE /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
+		D8D4AFC814257821009C4FCE /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
+		D8D4AFCA142578E7009C4FCE /* HoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverView.h; sourceTree = "<group>"; };
+		D8D4AFCB142578E7009C4FCE /* HoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverView.m; sourceTree = "<group>"; };
+		D8D4AFCD14257AA2009C4FCE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D8D4AFCF14257B76009C4FCE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D8D916C4142FC02A00431FA6 /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		D8D916C5142FC02A00431FA6 /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		D8D916C6142FC02B00431FA6 /* BookmarksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarksViewController.xib; sourceTree = "<group>"; };
+		D8DBEA71143469DF0098553B /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		D8DBEA73143469F00098553B /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		D8EAB0CF1433210D00CFDFDC /* ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribbon.png; sourceTree = "<group>"; };
 		D8F2F4EE14255D2E005508C7 /* Simple Bible KJV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Bible KJV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F2F4F214255D2E005508C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8F2F4F414255D2E005508C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8F2F4FA14255D2E005508C7 /* Simple Bible KJV-Info.plist */ = {isa = PBXFileReference; path = "Simple Bible KJV-Info.plist"; sourceTree = "<group>"; };
+		D8F2F4FA14255D2E005508C7 /* Simple Bible KJV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Bible KJV-Info.plist"; sourceTree = "<group>"; };
 		D8F2F4FC14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8F2F4FE14255D2E005508C7 /* Simple Bible KJV-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Bible KJV-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2F4FE14255D2E005508C7 /* Simple Bible KJV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Bible KJV-Prefix.pch"; sourceTree = "<group>"; };
 		D8F2F4FF14255D2E005508C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */ = {isa = PBXFileReference; path = Simple_Bible_KJVAppDelegate.h; sourceTree = "<group>"; };
+		D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Bible_KJVAppDelegate.h; sourceTree = "<group>"; };
 		D8F2F50214255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Bible_KJVAppDelegate.m; sourceTree = "<group>"; };
 		D8F2F50514255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D8F2F50714255D2E005508C7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		D8F2F50714255D2E005508C7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D8F2F50814255D2E005508C7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D8F2F50B14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		D8F2F51214255D2E005508C7 /* Simple Bible KJVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Bible KJVTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8F2F51A14255D2E005508C7 /* Simple Bible KJVTests-Info.plist */ = {isa = PBXFileReference; path = "Simple Bible KJVTests-Info.plist"; sourceTree = "<group>"; };
+		D8F2F51A14255D2E005508C7 /* Simple Bible KJVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Bible KJVTests-Info.plist"; sourceTree = "<group>"; };
 		D8F2F51C14255D2E005508C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8F2F51E14255D2E005508C7 /* Simple Bible KJVTests-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Bible KJVTests-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2F51E14255D2E005508C7 /* Simple Bible KJVTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Bible KJVTests-Prefix.pch"; sourceTree = "<group>"; };
 		D8F2F51F14255D2E005508C7 /* Simple_Bible_KJVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Bible_KJVTests.h; sourceTree = "<group>"; };
 		D8F2F52114255D2E005508C7 /* Simple_Bible_KJVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Bible_KJVTests.m; sourceTree = "<group>"; };
+		D8F914831436D48200017D64 /* decrease_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decrease_font.png; sourceTree = "<group>"; };
+		D8F914841436D48200017D64 /* increase_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = increase_font.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D4AFB014257047009C4FCE /* libsqlite3.dylib in Frameworks */,
 				D8F2F4F314255D2E005508C7 /* UIKit.framework in Frameworks */,
 				D8F2F4F514255D2E005508C7 /* Foundation.framework in Frameworks */,
 				D8F2F4F714255D2E005508C7 /* CoreGraphics.framework in Frameworks */,
@@ -81,9 +152,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8CBA231142B274300AC20E9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D8CBA232142B274300AC20E9 /* MBProgressHUD.h */,
+				D8CBA233142B274300AC20E9 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D8D4AF9E14256D15009C4FCE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D8D4AF9F14256D15009C4FCE /* BibleLibrary.h */,
+				D8D4AFA014256D15009C4FCE /* BibleLibrary.m */,
+				D8D4AFA114256D15009C4FCE /* Book.h */,
+				D8D4AFA214256D15009C4FCE /* Book.m */,
+				D8D4AFA514256D15009C4FCE /* Verse.h */,
+				D8D4AFA614256D15009C4FCE /* Verse.m */,
+				D8DBEA73143469F00098553B /* Bookmark.h */,
+				D8DBEA71143469DF0098553B /* Bookmark.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D8D4AFB714257473009C4FCE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8F914831436D48200017D64 /* decrease_font.png */,
+				D8F914841436D48200017D64 /* increase_font.png */,
+				D8EAB0CF1433210D00CFDFDC /* ribbon.png */,
+				D8D4AFB814257473009C4FCE /* closed3.png */,
+				D8D4AFB914257473009C4FCE /* Left.png */,
+				D8D4AFBA14257473009C4FCE /* LeftPressed.png */,
+				D8D4AFBB14257473009C4FCE /* listing3.png */,
+				D8D4AFBC14257473009C4FCE /* Right.png */,
+				D8D4AFBD14257473009C4FCE /* RightPressed.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		D8F2F4E314255D2D005508C7 = {
 			isa = PBXGroup;
 			children = (
+				D8D4AFCF14257B76009C4FCE /* icon.png */,
 				D8F2F4F814255D2E005508C7 /* Simple Bible KJV */,
 				D8F2F51814255D2E005508C7 /* Simple Bible KJVTests */,
 				D8F2F4F114255D2E005508C7 /* Frameworks */,
@@ -103,6 +215,8 @@
 		D8F2F4F114255D2E005508C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8D4AFAF14257047009C4FCE /* libsqlite3.dylib */,
+				D8D4AFAD1425702E009C4FCE /* libsqlite3.0.dylib */,
 				D8F2F4F214255D2E005508C7 /* UIKit.framework */,
 				D8F2F4F414255D2E005508C7 /* Foundation.framework */,
 				D8F2F4F614255D2E005508C7 /* CoreGraphics.framework */,
@@ -113,12 +227,24 @@
 		D8F2F4F814255D2E005508C7 /* Simple Bible KJV */ = {
 			isa = PBXGroup;
 			children = (
+				D8CBA231142B274300AC20E9 /* MBProgressHUD */,
+				D8D4AF9E14256D15009C4FCE /* Data */,
 				D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */,
 				D8F2F50214255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m */,
-				D8F2F50414255D2E005508C7 /* MainWindow.xib */,
 				D8F2F50714255D2E005508C7 /* RootViewController.h */,
 				D8F2F50814255D2E005508C7 /* RootViewController.m */,
-				D8F2F50A14255D2E005508C7 /* RootViewController.xib */,
+				D8D4AFC714257821009C4FCE /* ChapterViewController.h */,
+				D8D4AFC814257821009C4FCE /* ChapterViewController.m */,
+				D8D427141429D78E0078D572 /* SearchViewController.h */,
+				D8D427151429D78E0078D572 /* SearchViewController.m */,
+				D8CBA22B142B1EDA00AC20E9 /* SearchResultsViewController.h */,
+				D8CBA22C142B1EDA00AC20E9 /* SearchResultsViewController.m */,
+				D8D916C4142FC02A00431FA6 /* BookmarksViewController.h */,
+				D8D916C5142FC02A00431FA6 /* BookmarksViewController.m */,
+				D8D4AFCA142578E7009C4FCE /* HoverView.h */,
+				D8D4AFCB142578E7009C4FCE /* HoverView.m */,
+				D83FD816142598B10070DE8D /* TapDetectingWindow.h */,
+				D83FD817142598B10070DE8D /* TapDetectingWindow.m */,
 				D8F2F4F914255D2E005508C7 /* Supporting Files */,
 			);
 			path = "Simple Bible KJV";
@@ -127,6 +253,16 @@
 		D8F2F4F914255D2E005508C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8D4AFB714257473009C4FCE /* Images */,
+				D8D4AFCD14257AA2009C4FCE /* icon.png */,
+				D8F2F50414255D2E005508C7 /* MainWindow.xib */,
+				D8F2F50A14255D2E005508C7 /* RootViewController.xib */,
+				D8D4AFC41425780B009C4FCE /* ChapterViewController.xib */,
+				D8D427161429D78E0078D572 /* SearchViewController.xib */,
+				D8CBA22D142B1EDA00AC20E9 /* SearchResultsViewController.xib */,
+				D8CC89DB142C7A9A0094C516 /* SearchResultsCell.xib */,
+				D8D916C6142FC02B00431FA6 /* BookmarksViewController.xib */,
+				D8D4AFAB14256D49009C4FCE /* bible.db */,
 				D8F2F4FA14255D2E005508C7 /* Simple Bible KJV-Info.plist */,
 				D8F2F4FB14255D2E005508C7 /* InfoPlist.strings */,
 				D8F2F4FE14255D2E005508C7 /* Simple Bible KJV-Prefix.pch */,
@@ -225,6 +361,23 @@
 				D8F2F4FD14255D2E005508C7 /* InfoPlist.strings in Resources */,
 				D8F2F50614255D2E005508C7 /* MainWindow.xib in Resources */,
 				D8F2F50C14255D2E005508C7 /* RootViewController.xib in Resources */,
+				D8D4AFAC14256D49009C4FCE /* bible.db in Resources */,
+				D8D4AFBE14257473009C4FCE /* closed3.png in Resources */,
+				D8D4AFBF14257473009C4FCE /* Left.png in Resources */,
+				D8D4AFC014257473009C4FCE /* LeftPressed.png in Resources */,
+				D8D4AFC114257473009C4FCE /* listing3.png in Resources */,
+				D8D4AFC214257473009C4FCE /* Right.png in Resources */,
+				D8D4AFC314257473009C4FCE /* RightPressed.png in Resources */,
+				D8D4AFC61425780C009C4FCE /* ChapterViewController.xib in Resources */,
+				D8D4AFCE14257AA2009C4FCE /* icon.png in Resources */,
+				D8D4AFD014257B76009C4FCE /* icon.png in Resources */,
+				D8D427181429D78E0078D572 /* SearchViewController.xib in Resources */,
+				D8CBA22F142B1EDA00AC20E9 /* SearchResultsViewController.xib in Resources */,
+				D8CC89DC142C7A9A0094C516 /* SearchResultsCell.xib in Resources */,
+				D8D916C8142FC02B00431FA6 /* BookmarksViewController.xib in Resources */,
+				D8EAB0D01433210D00CFDFDC /* ribbon.png in Resources */,
+				D8F914851436D48200017D64 /* decrease_font.png in Resources */,
+				D8F914861436D48200017D64 /* increase_font.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +416,17 @@
 				D8F2F50014255D2E005508C7 /* main.m in Sources */,
 				D8F2F50314255D2E005508C7 /* Simple_Bible_KJVAppDelegate.m in Sources */,
 				D8F2F50914255D2E005508C7 /* RootViewController.m in Sources */,
+				D8D4AFA714256D15009C4FCE /* BibleLibrary.m in Sources */,
+				D8D4AFA814256D15009C4FCE /* Book.m in Sources */,
+				D8D4AFAA14256D15009C4FCE /* Verse.m in Sources */,
+				D8D4AFC914257821009C4FCE /* ChapterViewController.m in Sources */,
+				D8D4AFCC142578E7009C4FCE /* HoverView.m in Sources */,
+				D83FD818142598B10070DE8D /* TapDetectingWindow.m in Sources */,
+				D8D427171429D78E0078D572 /* SearchViewController.m in Sources */,
+				D8CBA22E142B1EDA00AC20E9 /* SearchResultsViewController.m in Sources */,
+				D8CBA234142B274300AC20E9 /* MBProgressHUD.m in Sources */,
+				D8D916C7142FC02B00431FA6 /* BookmarksViewController.m in Sources */,
+				D8DBEA72143469DF0098553B /* Bookmark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +449,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D8D4AFC41425780B009C4FCE /* ChapterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D4AFC51425780C009C4FCE /* en */,
+			);
+			name = ChapterViewController.xib;
+			sourceTree = "<group>";
+		};
 		D8F2F4FB14255D2E005508C7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,7 +504,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -346,7 +518,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -361,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Bible KJV/Simple Bible KJV-Prefix.pch";
 				INFOPLIST_FILE = "Simple Bible KJV/Simple Bible KJV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Bible KJV/Simple Bible KJV-Prefix.pch";
 				INFOPLIST_FILE = "Simple Bible KJV/Simple Bible KJV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +617,7 @@
 				D8F2F52714255D2E005508C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F2F52814255D2E005508C7 /* Build configuration list for PBXNativeTarget "Simple Bible KJVTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +626,7 @@
 				D8F2F52A14255D2E005508C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

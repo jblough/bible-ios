@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BibleLibrary.h"
+#import "BookmarksViewController.h"
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UITableViewController <SelectChapterDelegate, BookmarkLoaderDelegate> {
 
+    IBOutlet UIBarButtonItem *searchButtonItem;
+    IBOutlet UIBarButtonItem *bookmarksButtonItem;
+    
+    NSArray *otBooks;
+    NSArray *ntBooks;
 }
 
 
