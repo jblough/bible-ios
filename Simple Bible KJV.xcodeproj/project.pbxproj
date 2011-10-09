@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D820C0551442635600A0F7CF /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D820C0541442635600A0F7CF /* iToast.m */; };
 		D83FD818142598B10070DE8D /* TapDetectingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FD817142598B10070DE8D /* TapDetectingWindow.m */; };
 		D8CBA22E142B1EDA00AC20E9 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBA22C142B1EDA00AC20E9 /* SearchResultsViewController.m */; };
 		D8CBA22F142B1EDA00AC20E9 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CBA22D142B1EDA00AC20E9 /* SearchResultsViewController.xib */; };
@@ -63,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D820C0531442635600A0F7CF /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		D820C0541442635600A0F7CF /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
 		D83FD816142598B10070DE8D /* TapDetectingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingWindow.h; sourceTree = "<group>"; };
 		D83FD817142598B10070DE8D /* TapDetectingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingWindow.m; sourceTree = "<group>"; };
 		D8CBA22B142B1EDA00AC20E9 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
@@ -150,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D820C0521442635600A0F7CF /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				D820C0531442635600A0F7CF /* iToast.h */,
+				D820C0541442635600A0F7CF /* iToast.m */,
+			);
+			path = iToast;
+			sourceTree = "<group>";
+		};
 		D8CBA231142B274300AC20E9 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 		D8F2F4F814255D2E005508C7 /* Simple Bible KJV */ = {
 			isa = PBXGroup;
 			children = (
+				D820C0521442635600A0F7CF /* iToast */,
 				D8CBA231142B274300AC20E9 /* MBProgressHUD */,
 				D8D4AF9E14256D15009C4FCE /* Data */,
 				D8F2F50114255D2E005508C7 /* Simple_Bible_KJVAppDelegate.h */,
@@ -423,6 +436,7 @@
 				D8CBA234142B274300AC20E9 /* MBProgressHUD.m in Sources */,
 				D8D916C7142FC02B00431FA6 /* BookmarksViewController.m in Sources */,
 				D8DBEA72143469DF0098553B /* Bookmark.m in Sources */,
+				D820C0551442635600A0F7CF /* iToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

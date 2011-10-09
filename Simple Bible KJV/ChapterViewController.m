@@ -9,6 +9,7 @@
 #import "ChapterViewController.h"
 #import "Simple_Bible_KJVAppDelegate.h"
 #import "HoverView.h"
+#import "iToast.h"
 
 #define MIN_FONT_SIZE 10
 #define MAX_FONT_SIZE 36
@@ -164,6 +165,8 @@ NSString *Show_HoverView = @"SHOW";
             int verseId = [[parts objectAtIndex:1] intValue];
             //[self promptForAddingBookmark:verseId];
             [Bookmark addBookmark:verseId];
+            [[[[iToast makeText:NSLocalizedString(@"  Bookmark added  ", @"")] 
+               setGravity:iToastGravityBottom] setDuration:iToastDurationShort] show];
         }
         return NO;
     }
