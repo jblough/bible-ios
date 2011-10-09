@@ -28,7 +28,6 @@
 		D8D4AFC61425780C009C4FCE /* ChapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFC41425780B009C4FCE /* ChapterViewController.xib */; };
 		D8D4AFC914257821009C4FCE /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFC814257821009C4FCE /* ChapterViewController.m */; };
 		D8D4AFCC142578E7009C4FCE /* HoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4AFCB142578E7009C4FCE /* HoverView.m */; };
-		D8D4AFCE14257AA2009C4FCE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFCD14257AA2009C4FCE /* icon.png */; };
 		D8D4AFD014257B76009C4FCE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D4AFCF14257B76009C4FCE /* icon.png */; };
 		D8D916C7142FC02B00431FA6 /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D916C5142FC02A00431FA6 /* BookmarksViewController.m */; };
 		D8D916C8142FC02B00431FA6 /* BookmarksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D916C6142FC02B00431FA6 /* BookmarksViewController.xib */; };
@@ -95,7 +94,6 @@
 		D8D4AFC814257821009C4FCE /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
 		D8D4AFCA142578E7009C4FCE /* HoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverView.h; sourceTree = "<group>"; };
 		D8D4AFCB142578E7009C4FCE /* HoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverView.m; sourceTree = "<group>"; };
-		D8D4AFCD14257AA2009C4FCE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D8D4AFCF14257B76009C4FCE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D8D916C4142FC02A00431FA6 /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
 		D8D916C5142FC02A00431FA6 /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
@@ -254,7 +252,6 @@
 			isa = PBXGroup;
 			children = (
 				D8D4AFB714257473009C4FCE /* Images */,
-				D8D4AFCD14257AA2009C4FCE /* icon.png */,
 				D8F2F50414255D2E005508C7 /* MainWindow.xib */,
 				D8F2F50A14255D2E005508C7 /* RootViewController.xib */,
 				D8D4AFC41425780B009C4FCE /* ChapterViewController.xib */,
@@ -369,7 +366,6 @@
 				D8D4AFC214257473009C4FCE /* Right.png in Resources */,
 				D8D4AFC314257473009C4FCE /* RightPressed.png in Resources */,
 				D8D4AFC61425780C009C4FCE /* ChapterViewController.xib in Resources */,
-				D8D4AFCE14257AA2009C4FCE /* icon.png in Resources */,
 				D8D4AFD014257B76009C4FCE /* icon.png in Resources */,
 				D8D427181429D78E0078D572 /* SearchViewController.xib in Resources */,
 				D8CBA22F142B1EDA00AC20E9 /* SearchResultsViewController.xib in Resources */,
